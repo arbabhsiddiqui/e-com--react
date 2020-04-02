@@ -14,7 +14,8 @@
 
     .background-image:hover {
       transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45);
+      filter: blur(4px);
+      transition: all 6s cubic-bezier(0.6, 0.28, 0.735, 0.045);
     }
     .content {
       opacity: 0.9;
